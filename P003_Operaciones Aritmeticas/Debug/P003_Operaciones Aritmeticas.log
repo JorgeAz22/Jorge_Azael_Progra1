@@ -1,0 +1,4 @@
+﻿  P003_Operaciones Aritmeticas.cpp
+C:\Users\LABORATORIO 210\Desktop\Jorge Azael Ascencio Luna\Jorge_Azael_Progra1\P003_Operaciones Aritmeticas\P003_Operaciones Aritmeticas.cpp(97,13): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\LABORATORIO 210\Desktop\Jorge Azael Ascencio Luna\Jorge_Azael_Progra1\P003_Operaciones Aritmeticas\P003_Operaciones Aritmeticas.cpp(103,12): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+  P003_Operaciones Aritmeticas.vcxproj -> C:\Users\LABORATORIO 210\Desktop\Jorge Azael Ascencio Luna\Jorge_Azael_Progra1\P003_Operaciones Aritmeticas\Debug\P003_Operaciones Aritmeticas.exe
