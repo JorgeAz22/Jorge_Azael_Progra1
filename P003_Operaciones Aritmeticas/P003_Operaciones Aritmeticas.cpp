@@ -104,6 +104,19 @@ int main()
     std::cout << "El resultado de la potencia es" << p << std::endl;
 
 
+    //Asesoria Mau
+    int edad = 0;
+    std::cout <<"Hola usuario dime tu edad" <<
+        std::endl;
+    std::cin >> edad;
+    std::cout<<"Asi que tienes" <<
+        edad << std::endl;
+    bool HoM = True;
+    std::cout << "Me podrias decir si eres hombre o mujer" <<
+        std::endl;
+    std::cin >> HoM;
+    std::count <<"Asi que eres" <<
+        std::endl
 
 
 }
