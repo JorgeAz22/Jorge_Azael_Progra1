@@ -88,7 +88,7 @@ int main()
 
     float j, k, l;
     j = 3;
-    k = 7;
+    k = a;
     l = j * k;
     std::cout << "El resultado de la multipiclacion es" << l << std::endl;
 
