@@ -1,0 +1,6 @@
+﻿  P004_EntradaYsalida_V00.cpp
+C:\Users\LABORATORIO 210\Desktop\Jorge Azael Ascencio Luna\Jorge_Azael_Progra1\P004_EntradaYsalida_V00\P004_EntradaYsalida_V00.cpp(23,11): warning C4101: 'IMC': variable local sin referencia
+C:\Users\LABORATORIO 210\Desktop\Jorge Azael Ascencio Luna\Jorge_Azael_Progra1\P004_EntradaYsalida_V00\P004_EntradaYsalida_V00.cpp(22,11): warning C4101: 'altura': variable local sin referencia
+C:\Users\LABORATORIO 210\Desktop\Jorge Azael Ascencio Luna\Jorge_Azael_Progra1\P004_EntradaYsalida_V00\P004_EntradaYsalida_V00.cpp(21,9): warning C4101: 'peso': variable local sin referencia
+C:\Users\LABORATORIO 210\Desktop\Jorge Azael Ascencio Luna\Jorge_Azael_Progra1\P004_EntradaYsalida_V00\P004_EntradaYsalida_V00.cpp(20,9): warning C4101: 'edad': variable local sin referencia
+  P004_EntradaYsalida_V00.vcxproj -> C:\Users\LABORATORIO 210\Desktop\Jorge Azael Ascencio Luna\Jorge_Azael_Progra1\P004_EntradaYsalida_V00\Debug\P004_EntradaYsalida_V00.exe
