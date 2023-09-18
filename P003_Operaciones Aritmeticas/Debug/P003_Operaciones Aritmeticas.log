@@ -1,4 +1,6 @@
 ﻿  P003_Operaciones Aritmeticas.cpp
-C:\Users\LABORATORIO 210\Desktop\Jorge Azael Ascencio Luna\Jorge_Azael_Progra1\P003_Operaciones Aritmeticas\P003_Operaciones Aritmeticas.cpp(97,13): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\LABORATORIO 210\Desktop\Jorge Azael Ascencio Luna\Jorge_Azael_Progra1\P003_Operaciones Aritmeticas\P003_Operaciones Aritmeticas.cpp(103,12): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-  P003_Operaciones Aritmeticas.vcxproj -> C:\Users\LABORATORIO 210\Desktop\Jorge Azael Ascencio Luna\Jorge_Azael_Progra1\P003_Operaciones Aritmeticas\Debug\P003_Operaciones Aritmeticas.exe
+C:\Users\LABORATORIO 208\Desktop\Jorge Azael Progra No borrar\Jorge_Azael_Progra1\P003_Operaciones Aritmeticas\P003_Operaciones Aritmeticas.cpp(97,13): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\LABORATORIO 208\Desktop\Jorge Azael Progra No borrar\Jorge_Azael_Progra1\P003_Operaciones Aritmeticas\P003_Operaciones Aritmeticas.cpp(103,12): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\LABORATORIO 208\Desktop\Jorge Azael Progra No borrar\Jorge_Azael_Progra1\P003_Operaciones Aritmeticas\P003_Operaciones Aritmeticas.cpp(114,16): error C2065: 'True': identificador no declarado
+C:\Users\LABORATORIO 208\Desktop\Jorge Azael Progra No borrar\Jorge_Azael_Progra1\P003_Operaciones Aritmeticas\P003_Operaciones Aritmeticas.cpp(118,33): error C2563: hay una falta de correspondencia en la lista de parámetros formales
+C:\Users\LABORATORIO 208\Desktop\Jorge Azael Progra No borrar\Jorge_Azael_Progra1\P003_Operaciones Aritmeticas\P003_Operaciones Aritmeticas.cpp(122,1): error C2143: error de sintaxis: falta ';' delante de '}'
