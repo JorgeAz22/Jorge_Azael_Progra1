@@ -1,0 +1,3 @@
+﻿  P007 Decisiones (IF-ELSE-SWITCH CASE)_v00.cpp
+C:\Users\LABORATORIO 210\Desktop\Jorge Azael Ascencio Luna\Jorge_Azael_Progra1\P007 Decisiones (IF-ELSE-SWITCH CASE)_v00\P007 Decisiones (IF-ELSE-SWITCH CASE)_v00.cpp(17,4): warning C4065: la instrucción switch contiene etiquetas 'default' pero no etiquetas 'case'
+C:\Users\LABORATORIO 210\Desktop\Jorge Azael Ascencio Luna\Jorge_Azael_Progra1\P007 Decisiones (IF-ELSE-SWITCH CASE)_v00\P007 Decisiones (IF-ELSE-SWITCH CASE)_v00.cpp(11): error C4700: se utilizó la variable local 'peleadores' sin inicializar
