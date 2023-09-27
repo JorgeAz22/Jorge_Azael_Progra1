@@ -1,11 +1,54 @@
-// Practica_007_V00.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
-//
+// P005_Operadores Aritmeticos/Bibliotecas
+// Jorge AzaeL Ascencio Luna
+// Este programa tendrá impresión de pantalla.
+// Creación de variables
+// Inicialización de variables
+// Solicitud de variables al usuario
 
 #include <iostream>
+#include <string>
 
 int main()
 {
-    std::cout << "Hello World!\n";
+   
+
+    float a, b, c;
+    a = 5;
+    b = 10;
+    c = a / b;
+    std::cout << "El resultado de la division es" << c << std::endl;
+
+    float d, e, f;
+    d = 5;
+    e = 2;
+    f = d - e;
+    std::cout << "El resultado de la resta es" << f << std::endl;
+
+    float g, h, i;
+    g = 5;
+    h = 23;
+    i = g + h;
+    std::cout << "El resultado de la suma es" << c << std::endl;
+
+    float j, k, l;
+    j = 3;
+    k = a;
+    l = j * k;
+    std::cout << "El resultado de la multipiclacion es" << l << std::endl;
+
+    float m, n;
+    m = 3;
+    n = sqrt(3);
+
+    std::cout << "El resultado de la raiz es" << n << std::endl;
+
+    float o, p;
+    o = 3;
+    p = pow(3, 2);
+    std::cout << "El resultado de la potencia es" << p << std::endl;
+
+   
+
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
