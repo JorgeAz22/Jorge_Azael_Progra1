@@ -1,3 +1,5 @@
 ﻿  P007 Decisiones (IF-ELSE-SWITCH CASE)_v00.cpp
-C:\Users\LABORATORIO 210\Desktop\Jorge Azael Ascencio Luna\Jorge_Azael_Progra1\P007 Decisiones (IF-ELSE-SWITCH CASE)_v00\P007 Decisiones (IF-ELSE-SWITCH CASE)_v00.cpp(17,4): warning C4065: la instrucción switch contiene etiquetas 'default' pero no etiquetas 'case'
-C:\Users\LABORATORIO 210\Desktop\Jorge Azael Ascencio Luna\Jorge_Azael_Progra1\P007 Decisiones (IF-ELSE-SWITCH CASE)_v00\P007 Decisiones (IF-ELSE-SWITCH CASE)_v00.cpp(11): error C4700: se utilizó la variable local 'peleadores' sin inicializar
+C:\Users\ascen\OneDrive\Escritorio\Repositorio Programacion\Jorge_Azael_Progra1\P007 Decisiones (IF-ELSE-SWITCH CASE)_v00\P007 Decisiones (IF-ELSE-SWITCH CASE)_v00.cpp(13,12): error C2059: error de sintaxis: ')'
+C:\Users\ascen\OneDrive\Escritorio\Repositorio Programacion\Jorge_Azael_Progra1\P007 Decisiones (IF-ELSE-SWITCH CASE)_v00\P007 Decisiones (IF-ELSE-SWITCH CASE)_v00.cpp(14,4): error C2143: error de sintaxis: falta ';' delante de '{'
+C:\Users\ascen\OneDrive\Escritorio\Repositorio Programacion\Jorge_Azael_Progra1\P007 Decisiones (IF-ELSE-SWITCH CASE)_v00\P007 Decisiones (IF-ELSE-SWITCH CASE)_v00.cpp(15,4): error C2047: palabra clave default no válida
+C:\Users\ascen\OneDrive\Escritorio\Repositorio Programacion\Jorge_Azael_Progra1\P007 Decisiones (IF-ELSE-SWITCH CASE)_v00\P007 Decisiones (IF-ELSE-SWITCH CASE)_v00.cpp(16,5): error C2043: instrucción break no válida
