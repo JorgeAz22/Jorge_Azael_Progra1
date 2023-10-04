@@ -1,94 +1,88 @@
-// P009_Practica_V1.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
-//
-
 #include <iostream>
+#include <cmath>
+#include <locale>
+#include <math.h>
 
-int main()
-{
-    int num1, num2;
-    int operador;
+
+
+int main() {
+    setlocale(LC_ALL, "es_MX.UTF-8");
+    int opcion;
+    double numero1, numero2;
     bool repetir = true;
     while (repetir)
     {
 
-        std::cout << "Ingrese el primer numero por favor\n";
-        std::cin >> num1;
 
-        std::cout << "Ingrese un operador (1.- +, 2.- -, 3.- * ,4- /,5- ^,6.- Valor absoluto 7.- Mayor que y menor que ):\n";
-        std::cin >> operador;
+    std::cout << "Hola usuario esta es una calculadora elige la accion que quieras hacer" << std::endl;
+    std::cout << "1. Suma" << std::endl;
+    std::cout << "2. Resta" << std::endl;
+    std::cout << "3. Multiplicación" << std::endl;
+    std::cout << "4. División" << std::endl;
+    std::cout << "5. Valor Absoluto" << std::endl;
+    std::cout << "6. Mayor y Menor que" << std::endl;
+    std::cout << "Elija una opción (1-6): ";
+    std::cin >> opcion;
 
-        std::cout << "Ingrese el segundo numero\n";
-        std::cin >> num2;
-
-        int resultado;
-        switch (operador)
-        {
-
-        case 1:
-            resultado = num1 + num2;
-
-            std::cout << "El resultado de la suma es " << resultado << std::endl;
-            break;
-        case 2:
-            resultado = num1 - num2;
-            std::cout << "El resultado de la resta es " << resultado << std::endl;
-            break;
-        case 3:
-            resultado = num1 * num2;
-            std::cout << "El resultado de la multiplacion es " << resultado << std::endl;
-            break;
-        case 4:
-            resultado = num1 / num2;
-            std::cout << "El resultado de la division es " << resultado << std::endl;
-            break;
-        case 5:
-            resultado = num1 ^ num2;
-            std::cout << "El resultado de la potencia es " << resultado << std::endl;
-            break;
-        case 6:
-            float numero;
-            std::cout << "Muy bien usuario ahora dame un numero y te dire su valor absoluto\n";
-
-            std::cin >> numero;
-
-            if (numero >= 0)
-            {
-                std::cout << "Muy bien el valor absoluto es: " << numero << std::endl;
-
-            }
-            else
-            {
-
-            }
-            break;
-        case 7:
-            std::cout << "Muy bien ahora dime dos numeros y te dire cual es mayor o menor\n";
-            int a, b;
-            a = 0, b = 0;
-            std::cout << "Dame el primer numero (A)\n";
-            std::cin >> a;
-
-            std::cout << "Muy bien dame el segundo numero (B)\n";
-            std::cin >> b;
-
-            if (a > b)
-                std::cout << "A es mayor\n";
-            {
-                if (b > a)
-                    std::cout << "B es mayor\n";
-                if (a = b)
-                    std::cout << "A y B son iguales\n";
-                {
-
-                }
-            }
-            break;
-
-        default:
-            std::cout << "Operador invalido\n";
-            return 0;
+    switch (opcion) {
+    case 1:
+        std::cout << "Ingrese el primer número: ";
+        std::cin >> numero1;
+        std::cout << "Ingrese el segundo número: ";
+        std::cin >> numero2;
+        std::cout << "Resultado de la suma: " << numero1 + numero2 << std::endl;
+        break;
+    case 2:
+        std::cout << "Ingrese el primer número: ";
+        std::cin >> numero1;
+        std::cout << "Ingrese el segundo número: ";
+        std::cin >> numero2;
+        std::cout << "Resultado de la resta: " << numero1 - numero2 << std::endl;
+        break;
+    case 3:
+        std::cout << "Ingrese el primer número: ";
+        std::cin >> numero1;
+        std::cout << "Ingrese el segundo número: ";
+        std::cin >> numero2;
+        std::cout << "Resultado de la multiplicación: " << numero1 * numero2 << std::endl;
+        break;
+    case 4:
+        std::cout << "Ingrese el primer número: ";
+        std::cin >> numero1;
+        std::cout << "Ingrese el segundo número: ";
+        std::cin >> numero2;
+        if (numero2 != 0) {
+            std::cout << "Resultado de la división: " << numero1 / numero2 << std::endl;
         }
-
-
+        else {
+            std::cout << "Error: No se puede dividir por cero." << std::endl;
+        }
+        break;
+    case 5:
+        std::cout << "Ingrese un número: ";
+        std::cin >> numero1;
+        std::cout << "Valor absoluto de " << numero1 << " es " << abs(numero1) << std::endl;
+        break;
+    case 6:
+        std::cout << "Ingrese el primer número: ";
+        std::cin >> numero1;
+        std::cout << "Ingrese el segundo número: ";
+        std::cin >> numero2;
+        if (numero1 > numero2) {
+            std::cout << numero1 << " es mayor que " << numero2 << std::endl;
+        }
+        else if (numero1 < numero2) {
+            std::cout << numero1 << " es menor que " << numero2 << std::endl;
+        }
+        else {
+            std::cout << numero1 << " y " << numero2 << " son iguales." << std::endl;
+        }
+        break;
+    default:
+        std::cout << "Opción no válida. Por favor, elija una opción válida (1-6)." << std::endl;
+        break;
     }
+    }
+
+    return 0;
 }
