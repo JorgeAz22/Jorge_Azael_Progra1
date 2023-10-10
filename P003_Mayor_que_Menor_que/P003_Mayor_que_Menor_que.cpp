@@ -26,4 +26,9 @@
 
             if (num1 < num2)
                 std::cout << num1 << " es menor a " << num2 << std::endl;
+        if (num1 = num2)
+            std::cout << num1 << "Es igual a " << num2 << std::endl;
+        {
+
+        }
     }
