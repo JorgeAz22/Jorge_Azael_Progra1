@@ -1,0 +1,3 @@
+﻿  Batalla pokemon.cpp
+C:\Users\ascen\OneDrive\Escritorio\Repositorio Programacion\Jorge_Azael_Progra1\Batalla pokemon\Batalla pokemon\Batalla pokemon.cpp(30,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  Batalla pokemon.vcxproj -> C:\Users\ascen\OneDrive\Escritorio\Repositorio Programacion\Jorge_Azael_Progra1\Batalla pokemon\x64\Debug\Batalla pokemon.exe

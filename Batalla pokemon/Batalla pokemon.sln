@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Batalla pokemon", "Batalla pokemon\Batalla pokemon.vcxproj", "{ECB2B8B8-DCF3-4987-83FB-1BB9E126EC45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECB2B8B8-DCF3-4987-83FB-1BB9E126EC45}.Debug|x64.ActiveCfg = Debug|x64
+		{ECB2B8B8-DCF3-4987-83FB-1BB9E126EC45}.Debug|x64.Build.0 = Debug|x64
+		{ECB2B8B8-DCF3-4987-83FB-1BB9E126EC45}.Debug|x86.ActiveCfg = Debug|Win32
+		{ECB2B8B8-DCF3-4987-83FB-1BB9E126EC45}.Debug|x86.Build.0 = Debug|Win32
+		{ECB2B8B8-DCF3-4987-83FB-1BB9E126EC45}.Release|x64.ActiveCfg = Release|x64
+		{ECB2B8B8-DCF3-4987-83FB-1BB9E126EC45}.Release|x64.Build.0 = Release|x64
+		{ECB2B8B8-DCF3-4987-83FB-1BB9E126EC45}.Release|x86.ActiveCfg = Release|Win32
+		{ECB2B8B8-DCF3-4987-83FB-1BB9E126EC45}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15F5BCA7-3D62-4F33-AE97-DC6E1A5F6643}
+	EndGlobalSection
+EndGlobal
