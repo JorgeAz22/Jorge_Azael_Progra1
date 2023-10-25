@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <locale.h>
+#include <windows.h>
 
 int main()
 {
@@ -16,44 +17,47 @@ int main()
 
 
 
-        std::cout << "Acabas de perdir una vida deseas continuar (1.-Si    0.-No)\n";
+        std::cout << "Acabas de morir deseas continuar (1.-Si    0.-No)\n";
         std::cin >> iniciar;
         for (i = 0; i <= 100; i = i + 1)
+            Sleep(300);
         {
-        std::cout << "Tus vidas son: " << i << std::endl;
+        std::cout << "Tienes tantas vidas: " << i << std::endl;
         }
         if (iniciar == true)
         {
-        std::cout << "Te quedan 2 vidas ten cuidado\n";
+        std::cout << "Te quedan 2 vidas cuidado\n";
 
-        std::cout << "Volviste a morir,¿Deseas continuar? (1.-Si      0.-No)\n";
+        std::cout << "te moriste otra vez ,¿Deseas continuar? (1.-Si      0.-No)\n";
         std::cin >> iniciar;
         for (i = 0; i <= 100; i = i + 1)
+            Sleep(300);
         {
-        std::cout << "Tus vidas son: " << i << std::endl;
+        std::cout << "Tienes tandas vidas: " << i << std::endl;
         }
         if (iniciar == true)
         {
-        std::cout << "Te queda una vida ten cuidado estas a punto de perder\n";
-        std::cout << "¿Quieres continuar aun? (1.-Si ,  0.-No)\n";
+        std::cout << "Te queda una vida ten mucho cuidado estas a punto de perder\n";
+        std::cout << "¿Quieres continuar? (1.-Si ,  0.-No)\n";
         std::cin >> iniciar;
         for (i = 0; i <= 100; i = i + 1)
+            Sleep(300)
         {
-        std::cout << "Tus vidas son: " << i << std::endl;
+        std::cout << "Tienes tantas vidas: " << i << std::endl;
         }
         if (iniciar == true)
         {
-        std::cout << "Perdiste acabas de perder tu ultima vida\n";
-        std::cout << "Suerte en la siguiente partida\n";
+        std::cout << "Acabas de morir ya no te queda ninguna vida\n";
+        std::cout << "Suerte en tu siguiente partida\n";
         }
         else
         {
-        std::cout << "Gracias por jugar, disfruta tu ultima vida\n";
+        std::cout << "Disfruta tu ultima vida\n";
         }
         }
         else
         {
-        std::cout << "Que lastima ya estabas lejos\n";
+        std::cout << "Ya estabas lejos que lastima\n";
         }
 
         }
