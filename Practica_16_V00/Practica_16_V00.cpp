@@ -12,6 +12,10 @@ int main()
     std::string autor[3];
     std::string estudio[3];
     int ano[3];
+    bool repetir = true;
+    while (repetir)
+    {
+
 
     for (int i = 0; i <= 2; i++)
     {
@@ -33,6 +37,9 @@ int main()
         std::cout << " El nombre del estudio " << j << " es " << nombres[j] << std::endl;
         std::cout << " El año de lanzamiento del videojuego " << j << " es " << ano[j] << std::endl;
     }
-
+    std::cout << "¿ Quieres crear otra base de juegos ?   (1. SI   0. NO)\n ";
+    std::cin >> repetir;
+    }
+    return 0;
 }
 
