@@ -1,0 +1,3 @@
+﻿  MATRIZV_2.cpp
+C:\Users\ascen\OneDrive\Escritorio\Repositorio Programacion\Jorge_Azael_Progra1\MATRIZV_2\MATRIZV_2\MATRIZV_2.cpp(34,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  MATRIZV_2.vcxproj -> C:\Users\ascen\OneDrive\Escritorio\Repositorio Programacion\Jorge_Azael_Progra1\MATRIZV_2\x64\Debug\MATRIZV_2.exe
