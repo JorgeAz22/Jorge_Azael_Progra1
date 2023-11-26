@@ -32,19 +32,53 @@ void mostrarSet(const std::set<int>& conjunto) {
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 int main() {
+    bool repetir = true;
+    while (repetir)
+    {
+
     setlocale(LC_ALL, "es_MX.UTF-8");
-    // Definición de conjuntos
-    std::set<int> conjuntoA = { 1, 2, 3, 4, 5 };
-    std::set<int> conjuntoB = { 3, 4, 5, 6, 7 };
+
+    std::set<int> conjuntoA;
+    std::set<int> conjuntoB;
+
+    int numElementosA, numElementosB;
+
+    std::cout << "Ingrese la cantidad de elementos para el conjunto A: ";
+    std::cin >> numElementosA;
+    std::cout << "Ingrese los elementos del conjunto A: ";
+    for (int i = 0; i < numElementosA; ++i) {
+        int elemento;
+        std::cin >> elemento;
+        conjuntoA.insert(elemento);
+    }
+
+    std::cout << "Ingrese la cantidad de elementos para el conjunto B: ";
+    std::cin >> numElementosB;
+    std::cout << "Ingrese los elementos del conjunto B: ";
+    for (int i = 0; i < numElementosB; ++i) {
+        int elemento;
+        std::cin >> elemento;
+        conjuntoB.insert(elemento);
+    }
 
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- //Estas líneas de código están creando dos conjuntos en C++.
- //conjuntoA se inicializa con los valores{ 1, 2, 3, 4, 5 }.
- //conjuntoB se inicializa con los valores{ 3, 4, 5, 6, 7 }.
- //En términos simples, estas líneas definen dos conjuntos(conjuntoA y conjuntoB) con distintos valores enteros.
- //Estos conjuntos pueden ser utilizados para realizar operaciones comunes de conjuntos, como la unión, intersección, diferencia, etc.
- //Las operaciones entre estos conjuntos, como calcular la unión(unionSet), intersección(interseccionSet), o diferencia(diferenciaSet), pueden realizarse utilizando estos conjuntos previamente definidos.
+    //bool repetir = true;: Se inicializa una variable repetir con el valor booleano true. Esta variable se utilizará para controlar si se repite el bucle principal que recoge los conjuntos del usuario.
+    //while (true) { Comienza un bucle while infinito, lo que significa que continuará ejecutándose hasta que se encuentre una instrucción explícita para salir del bucle.
+    //setlocale(LC_ALL, "es_MX.UTF-8"); : Establece la configuración regional a "es_MX.UTF-8", lo que puede influir en la configuración de formato y lenguaje utilizada en el programa.
+    //std::set<int> conjuntoA; : Declara un conjunto vacío de enteros llamado conjuntoA.
+    //std::set<int> conjuntoB; : Declara un conjunto vacío de enteros llamado conjuntoB.
+    //int numElementosA, numElementosB; : Declara dos variables para almacenar la cantidad de elementos que el usuario ingresará para cada conjunto.
+    //std::cout << "Ingrese la cantidad de elementos para el conjunto A: "; : Muestra un mensaje en la consola solicitando al usuario que ingrese la cantidad de elementos para el conjunto A.
+    //std::cin >> numElementosA; : Lee la cantidad de elementos para el conjunto A ingresada por el usuario desde la entrada estándar y la almacena en la variable numElementosA.
+    //std::cout << "Ingrese los elementos del conjunto A: "; : Muestra un mensaje en la consola solicitando al usuario que ingrese los elementos para el conjunto A.
+    //for (int i = 0; i < numElementosA; ++i) {
+    //Comienza un bucle for que se ejecutará numElementosA veces para permitir al usuario ingresar los elementos para el conjunto A.
+    //int elemento; : Declara una variable elemento para almacenar cada elemento ingresado por el usuario.
+    //std::cin >> elemento; : Lee un elemento ingresado por el usuario desde la entrada estándar y lo almacena en la variable elemento.
+    //conjuntoA.insert(elemento); : Inserta el elemento ingresado en el conjunto A utilizando la función insert() de la clase std::set.
+    //El resto del código sigue un flujo similar para permitir al usuario ingresar los elementos para el conjunto B y luego continúa con el procesamiento de estos conjuntos 
+    //para calcular la unión, intersección o diferencia, lo cual no se muestra en el fragmento proporcionado
 
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -127,18 +161,19 @@ int main() {
    //La llamada mostrarSet(diferenciaSet); mostrará en la consola el contenido del conjunto diferenciaSet, que contiene los elementos de conjuntoA que no están presentes en conjuntoB.
    //Esto permite ver qué elementos pertenecen a un conjunto pero no al otro, es decir, los elementos únicos de conjuntoA.
 
+    std::cout << "¿Quieres crear otro conjunto?\n";
+    std::cout << " 1. Si\n";
+    std::cout << " 0. No\n";
+    std::cin >> repetir;
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+    //Es la pregunta para que se repita el bucle :D
+ 
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    }
+
+    
     return 0;
+
 }
 
-//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-//int main() { ... }: Función principal del programa, donde comienza la ejecución.
-//setlocale(LC_ALL, "es_MX.UTF-8"); : Configura la localización para mostrar texto en español.
-//std::set<int> conjuntoA = { 1, 2, 3, 4, 5 }; : Define un conjunto llamado conjuntoA que contiene los valores{ 1, 2, 3, 4, 5 }.
-//std::set<int> conjuntoB = { 3, 4, 5, 6, 7 }; : Define otro conjunto llamado conjuntoB con los valores{ 3, 4, 5, 6, 7 }.
-//Las secciones siguientes del código realizan operaciones como unión, intersección y diferencia entre conjuntoA y conjuntoB, usando funciones de la librería <algorithm> como std::merge, std::set_intersection y std::set_difference.
-//Cada operación calcula el resultado correspondiente y lo muestra en la consola utilizando la función mostrarSet.
-//Finalmente, return 0; indica que la ejecución del programa ha finalizado correctamente.
-
-//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -42,8 +42,10 @@ int main() {
     std::cout << " 1. Si\n";
     std::cout << " 0. No\n";
     std::cin >> repetir;
-    }
+    
     return 0;
+    
+    }
 }
 
 //Explicacion de cada linea:
